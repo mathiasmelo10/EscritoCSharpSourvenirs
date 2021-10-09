@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CapaDeDatos" GeneratedClassName="SouvenirsDB">
+  <Profiles />
+  <Settings>
+    <Setting Name="nombreDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">souvenirsdbmm</Value>
+    </Setting>
+    <Setting Name="usuarioDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="passwordDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">admin.root</Value>
+    </Setting>
+    <Setting Name="puertoDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">3306</Value>
+    </Setting>
+    <Setting Name="servidorDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
