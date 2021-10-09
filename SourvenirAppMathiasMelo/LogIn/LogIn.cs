@@ -22,7 +22,8 @@ namespace LogIn
 
         public void ingresar()
         {
-            
+            Alta form = new Alta();
+            form.Show();
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)

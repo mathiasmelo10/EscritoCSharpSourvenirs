@@ -80,6 +80,7 @@
             this.btnMoficacionBaja.TabIndex = 5;
             this.btnMoficacionBaja.Text = "Moficación";
             this.btnMoficacionBaja.UseVisualStyleBackColor = true;
+            this.btnMoficacionBaja.Click += new System.EventHandler(this.btnMoficacionBaja_Click);
             // 
             // btnListadoBaja
             // 
@@ -89,6 +90,7 @@
             this.btnListadoBaja.TabIndex = 8;
             this.btnListadoBaja.Text = "Listado";
             this.btnListadoBaja.UseVisualStyleBackColor = true;
+            this.btnListadoBaja.Click += new System.EventHandler(this.btnListadoBaja_Click);
             // 
             // Baja
             // 

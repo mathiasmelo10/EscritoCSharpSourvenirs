@@ -32,9 +32,42 @@ namespace SourvenirAppMathiasMelo
             ControladorAlta.alta(nombre, descripcion, stock, precio, fecha);
         }
 
+        public void menuBaja()
+        {
+            Baja formBaja = new Baja();
+            formBaja.Show();
+        }
+
+        public void menuModificacion()
+        {
+            Modificacion formMod = new Modificacion();
+            formMod.Show();
+        }
+
+        public void menuListado()
+        {
+            Listado formListado = new Listado();
+            formListado.Show();
+        }
+
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             Ingresar();
+        }
+
+        private void btnBaja_Click(object sender, EventArgs e)
+        {
+            menuBaja();
+        }
+
+        private void btnModifacion_Click(object sender, EventArgs e)
+        {
+            menuModificacion();
+        }
+
+        private void btnListado_Click(object sender, EventArgs e)
+        {
+            menuListado();
         }
     }
 }

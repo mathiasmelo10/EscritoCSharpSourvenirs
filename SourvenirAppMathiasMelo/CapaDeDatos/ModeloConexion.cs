@@ -40,11 +40,11 @@ namespace CapaDeDatos
         {
             comando.Connection = conexion;
             conexion.ConnectionString =
-                "servidor" + servidorDB + ";" +
-                "puerto" + puertoDB + ";" +
-                "usuario" + usuarioDB + ";" +
-                "password" + passwordDB + ";" +
-                "database" + nombreDB + ";";
+                "server=" + servidorDB + ";" +
+                 "port=" + puertoDB + ";"+
+                 "userid=" + usuarioDB + ";" +
+                "password=" + passwordDB + ";" +
+                "database=" + nombreDB + ";";
 
             try
             {

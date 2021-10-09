@@ -24,14 +24,14 @@ namespace CapaDeDatos
             string comandoString;
             comandoString =
                 "INSERT INTO souvenirs" +
-                "(nombre, descripcion, stock, precio, fecha_alta)" +
-                "VALUES (@nombre, @descripcion, @stock, @precio, @fecha_alta;";
+                "(nombre, descripcion, stock, precio, fecha_de_alta)" +
+                "VALUES(@nombre, @descripcion, @stock, @precio, @fecha_de_alta);";
             comando.CommandText = comandoString;
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@descripcion", descripcion);
             comando.Parameters.AddWithValue("@stock", stock);
             comando.Parameters.AddWithValue("@precio", precio);
-            comando.Parameters.AddWithValue("@fecha_alta", fecha_alta);
+            comando.Parameters.AddWithValue("@fecha_de_alta", fecha_alta);
             abrirConexion();
             comando.Prepare();
             comando.ExecuteNonQuery();
@@ -44,10 +44,9 @@ namespace CapaDeDatos
             string comandoString;
             comandoString =
                 "DELETE FROM souvenirs" +
-                "(nombre,descripcion,stock,precio,fecha_alta)" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir=@souvenirID;";
             comando.CommandText = comandoString;
-            comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
+            comando.Parameters.AddWithValue("@souvenirID", souvenirID);
             abrirConexion();
             comando.Prepare();
             comando.ExecuteNonQuery();

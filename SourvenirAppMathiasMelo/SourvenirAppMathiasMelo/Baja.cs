@@ -27,7 +27,20 @@ namespace SourvenirAppMathiasMelo
 
         public void menuAlta()
         {
+            Alta formAlta = new Alta();
+            formAlta.Show();
+        }
 
+        public void menuModificacion()
+        {
+            Modificacion formMod = new Modificacion();
+            formMod.Show();
+        }
+
+        public void menuListado()
+        {
+            Listado formListado = new Listado();
+            formListado.Show();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -37,7 +50,17 @@ namespace SourvenirAppMathiasMelo
 
         private void btnAltaBaja_Click(object sender, EventArgs e)
         {
+            menuAlta();
+        }
 
+        private void btnMoficacionBaja_Click(object sender, EventArgs e)
+        {
+            menuModificacion();
+        }
+
+        private void btnListadoBaja_Click(object sender, EventArgs e)
+        {
+            menuListado();
         }
     }
 }

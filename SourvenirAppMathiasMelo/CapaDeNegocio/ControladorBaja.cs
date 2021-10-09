@@ -9,11 +9,12 @@ namespace CapaDeNegocio
 {
    public static class ControladorBaja
     {
-        public static void baja(int souvenirID)
+        public static void baja(int idsouvenir)
         {
             ModeloSouvenirs bajaSouvenir = new ModeloSouvenirs();
-            bajaSouvenir.souvenirID = (souvenirID);
-            bajaSouvenir.bajaSouvenir(souvenirID);
+            bajaSouvenir.souvenirID = idsouvenir;
+       
+            
             
         }
     }

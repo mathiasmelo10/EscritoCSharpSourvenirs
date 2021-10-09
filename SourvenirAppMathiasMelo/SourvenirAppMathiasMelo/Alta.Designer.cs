@@ -70,6 +70,7 @@
             this.btnBaja.TabIndex = 2;
             this.btnBaja.Text = "Baja";
             this.btnBaja.UseVisualStyleBackColor = true;
+            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // btnModifacion
             // 
@@ -79,6 +80,7 @@
             this.btnModifacion.TabIndex = 3;
             this.btnModifacion.Text = "Moficación";
             this.btnModifacion.UseVisualStyleBackColor = true;
+            this.btnModifacion.Click += new System.EventHandler(this.btnModifacion_Click);
             // 
             // lblStockAlta
             // 
@@ -115,6 +117,7 @@
             this.btnListado.TabIndex = 7;
             this.btnListado.Text = "Listado";
             this.btnListado.UseVisualStyleBackColor = true;
+            this.btnListado.Click += new System.EventHandler(this.btnListado_Click);
             // 
             // txtNombre
             // 
@@ -161,7 +164,7 @@
             this.txtStockAlta.Size = new System.Drawing.Size(227, 20);
             this.txtStockAlta.TabIndex = 15;
             // 
-            // s
+            // Alta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,7 +183,7 @@
             this.Controls.Add(this.btnBaja);
             this.Controls.Add(this.lblDescripcionAlta);
             this.Controls.Add(this.lblNombreAlta);
-            this.Name = "s";
+            this.Name = "Alta";
             this.Text = "Alta ";
             this.ResumeLayout(false);
             this.PerformLayout();
