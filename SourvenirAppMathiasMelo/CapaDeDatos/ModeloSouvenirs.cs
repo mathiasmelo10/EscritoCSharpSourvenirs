@@ -61,7 +61,7 @@ namespace CapaDeDatos
             comandoString =
                 "UPDATE souvenirs" +
                 "SET nombre = @nombre" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             this.comando.CommandText = comandoString;
             this.comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             this.comando.Parameters.AddWithValue("@nombre", nombre);
@@ -78,7 +78,7 @@ namespace CapaDeDatos
             comandoString =
                 "UPDATE souvenirs" +
                 "SET descripcion = @descripcion" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             this.comando.CommandText = comandoString;
             this.comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             this.comando.Parameters.AddWithValue("@descripcion", descripcion);
@@ -95,7 +95,7 @@ namespace CapaDeDatos
             comandoString =
                 "UPDATE souvenirs" +
                 "SET stock = @stock" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             this.comando.CommandText = comandoString;
             this.comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             this.comando.Parameters.AddWithValue("@stock", stock);
@@ -112,7 +112,7 @@ namespace CapaDeDatos
             comandoString =
                 "UPDATE souvenirs" +
                 "SET precio = @precio" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             this.comando.CommandText = comandoString;
             this.comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             this.comando.Parameters.AddWithValue("@precio", precio);
@@ -129,7 +129,7 @@ namespace CapaDeDatos
             comandoString =
                 "UPDATE souvenirs" +
                 "SET fecha_alta = @fecha_alta" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             this.comando.CommandText = comandoString;
             this.comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             this.comando.Parameters.AddWithValue("@fecha_alta", fecha_alta);
@@ -149,8 +149,9 @@ namespace CapaDeDatos
                 "SELECT nombre ,descripcion, stock , precio ,fecha_alta" +
                 "VALUES(@nombre, @descripcion, @stock, @precio, @fecha_alta)" +
                 "FROM souvenirs" +
-                "WHERE souvenirID = @id_souvenir;";
+                "WHERE id_souvenir = @id_souvenir;";
             comando.CommandText = comandoString;
+            comando.Parameters.AddWithValue("@id_souvenir", souvenirID);
             comando.Parameters.AddWithValue("@nombre", nombre);
             comando.Parameters.AddWithValue("@descripcion", descripcion);
             comando.Parameters.AddWithValue("@stock", stock);
