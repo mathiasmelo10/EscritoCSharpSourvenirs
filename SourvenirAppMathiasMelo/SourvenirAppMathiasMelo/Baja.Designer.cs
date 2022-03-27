@@ -38,7 +38,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(350, 89);
+            this.btnEliminar.Location = new System.Drawing.Point(347, 56);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 1;
@@ -49,7 +49,7 @@
             // lblIDBaja
             // 
             this.lblIDBaja.AutoSize = true;
-            this.lblIDBaja.Location = new System.Drawing.Point(171, 94);
+            this.lblIDBaja.Location = new System.Drawing.Point(168, 61);
             this.lblIDBaja.Name = "lblIDBaja";
             this.lblIDBaja.Size = new System.Drawing.Size(56, 13);
             this.lblIDBaja.TabIndex = 2;
@@ -57,14 +57,14 @@
             // 
             // txtIDBaja
             // 
-            this.txtIDBaja.Location = new System.Drawing.Point(244, 89);
+            this.txtIDBaja.Location = new System.Drawing.Point(241, 56);
             this.txtIDBaja.Name = "txtIDBaja";
             this.txtIDBaja.Size = new System.Drawing.Size(100, 20);
             this.txtIDBaja.TabIndex = 3;
             // 
             // btnAltaBaja
             // 
-            this.btnAltaBaja.Location = new System.Drawing.Point(29, 50);
+            this.btnAltaBaja.Location = new System.Drawing.Point(29, 22);
             this.btnAltaBaja.Name = "btnAltaBaja";
             this.btnAltaBaja.Size = new System.Drawing.Size(75, 23);
             this.btnAltaBaja.TabIndex = 4;
@@ -74,7 +74,7 @@
             // 
             // btnMoficacionBaja
             // 
-            this.btnMoficacionBaja.Location = new System.Drawing.Point(29, 89);
+            this.btnMoficacionBaja.Location = new System.Drawing.Point(29, 51);
             this.btnMoficacionBaja.Name = "btnMoficacionBaja";
             this.btnMoficacionBaja.Size = new System.Drawing.Size(75, 23);
             this.btnMoficacionBaja.TabIndex = 5;
@@ -84,7 +84,7 @@
             // 
             // btnListadoBaja
             // 
-            this.btnListadoBaja.Location = new System.Drawing.Point(29, 126);
+            this.btnListadoBaja.Location = new System.Drawing.Point(29, 89);
             this.btnListadoBaja.Name = "btnListadoBaja";
             this.btnListadoBaja.Size = new System.Drawing.Size(75, 23);
             this.btnListadoBaja.TabIndex = 8;
@@ -96,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 183);
+            this.ClientSize = new System.Drawing.Size(428, 130);
             this.Controls.Add(this.btnListadoBaja);
             this.Controls.Add(this.btnMoficacionBaja);
             this.Controls.Add(this.btnAltaBaja);

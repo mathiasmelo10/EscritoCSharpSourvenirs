@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Aspose.Pdf.Facades;
 using CapaDeNegocio;
 
 namespace SourvenirAppMathiasMelo
 {
-    public partial class Baja : Form
+    public partial class Baja : System.Windows.Forms.Form
     {
         public Baja()
         {

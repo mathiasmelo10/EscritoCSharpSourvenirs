@@ -11,7 +11,7 @@ using CapaDeDatos;
 
 namespace CapaDeNegocio 
 {
-    public static class ControladorAlta 
+    public static class ControladorAlta //Controla Alta del Producto
     {
         public static void alta(string nombre, string descripcion, int stock , decimal precio, DateTime fecha_alta) 
         {

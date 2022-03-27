@@ -142,7 +142,7 @@
             // 
             // btnListadoMod
             // 
-            this.btnListadoMod.Location = new System.Drawing.Point(606, 454);
+            this.btnListadoMod.Location = new System.Drawing.Point(272, 321);
             this.btnListadoMod.Name = "btnListadoMod";
             this.btnListadoMod.Size = new System.Drawing.Size(75, 23);
             this.btnListadoMod.TabIndex = 29;
@@ -151,7 +151,7 @@
             // 
             // btnMoficacionMod
             // 
-            this.btnMoficacionMod.Location = new System.Drawing.Point(506, 454);
+            this.btnMoficacionMod.Location = new System.Drawing.Point(179, 321);
             this.btnMoficacionMod.Name = "btnMoficacionMod";
             this.btnMoficacionMod.Size = new System.Drawing.Size(75, 23);
             this.btnMoficacionMod.TabIndex = 28;
@@ -160,7 +160,7 @@
             // 
             // btnAltaMod
             // 
-            this.btnAltaMod.Location = new System.Drawing.Point(397, 454);
+            this.btnAltaMod.Location = new System.Drawing.Point(81, 321);
             this.btnAltaMod.Name = "btnAltaMod";
             this.btnAltaMod.Size = new System.Drawing.Size(75, 23);
             this.btnAltaMod.TabIndex = 27;
@@ -227,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 506);
+            this.ClientSize = new System.Drawing.Size(560, 355);
             this.Controls.Add(this.btnActualizarPrecio);
             this.Controls.Add(this.btnActualizarFecha);
             this.Controls.Add(this.btnActualizarDesc);

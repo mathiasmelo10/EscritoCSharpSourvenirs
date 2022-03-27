@@ -1,25 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data;
-using MySql.Data.MySqlClient;
-using System.Configuration;
+﻿using System.Data;
+using System.Globalization;
 
 
-namespace CapaDeDatos
-{
-   public class ModeloSouvenirs : ModeloConexion
+namespace CapaDeDatos {
+    public class ModeloSouvenirs : ModeloConexion
     {
         public int souvenirID { get; set; }
         public string nombre { get; set; }
         public string descripcion { get; set; }
         public int stock { get; set; }
         public decimal precio { get; set; }
-        public DateTime fecha_alta { get; set; }
+        public System.DateTime fecha_alta { get; set; }
 
-        public void altaSouvenir(string nombre, string descripcion, int stock, decimal precio, DateTime fecha_alta )
+        public void altaSouvenir(string nombre, string descripcion, int stock, decimal precio, System.DateTime fecha_alta)
         {
             string comandoString;
             comandoString =
@@ -123,7 +116,7 @@ namespace CapaDeDatos
             this.cerrarConexion();
         }
 
-        public void modificarFechaAltaSouvenir(int souvenirID, DateTime fecha_alta)
+        public void modificarFechaAltaSouvenir(int souvenirID, System.DateTime fecha_alta)
         {
             string comandoString;
             comandoString =
@@ -141,9 +134,9 @@ namespace CapaDeDatos
         }
 
 
-        public DataTable listadoSouvenirs()
+        public System.Data.DataTable listadoSouvenirs()
         {
-            DataTable listado = new DataTable();
+            System.Data.DataTable listado = new System.Data.DataTable();
             string comandoString;
             comandoString =
                 "SELECT nombre ,descripcion, stock , precio ,fecha_alta" +
@@ -162,6 +155,6 @@ namespace CapaDeDatos
             return leerTabla();
         }
 
-        
+
     }
 }

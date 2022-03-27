@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
-using System.Configuration;
+﻿using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace CapaDeDatos
@@ -49,18 +43,18 @@ namespace CapaDeDatos
             try
             {
                 conexion.Open();
-                Console.WriteLine("Conexion Abierta");
+                System.Console.WriteLine("Conexion Abierta");
             }
             catch (MySqlException excepcion)
             {
-                Console.WriteLine("" + excepcion);
+               System.Console.WriteLine("" + excepcion);
             }
         }
 
         public void cerrarConexion()
         {
             conexion.Close();
-            Console.WriteLine("Conexion Cerrada");
+            System.Console.WriteLine("Conexion Cerrada");
         }
 
         public void ejecutarYLeer()
@@ -74,7 +68,7 @@ namespace CapaDeDatos
             }
             catch (MySqlException ex)
             {
-                Console.WriteLine(ex);
+                System.Console.WriteLine(ex);
             }
             finally
             {
@@ -94,7 +88,7 @@ namespace CapaDeDatos
             }
             catch (MySqlException ex)
             {
-                Console.WriteLine(ex);
+                System.Console.WriteLine(ex);
             }
             finally
             {

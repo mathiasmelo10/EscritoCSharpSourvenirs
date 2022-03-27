@@ -47,7 +47,7 @@
             // lblNombreAlta
             // 
             this.lblNombreAlta.AutoSize = true;
-            this.lblNombreAlta.Location = new System.Drawing.Point(177, 102);
+            this.lblNombreAlta.Location = new System.Drawing.Point(177, 34);
             this.lblNombreAlta.Name = "lblNombreAlta";
             this.lblNombreAlta.Size = new System.Drawing.Size(44, 13);
             this.lblNombreAlta.TabIndex = 0;
@@ -56,7 +56,7 @@
             // lblDescripcionAlta
             // 
             this.lblDescripcionAlta.AutoSize = true;
-            this.lblDescripcionAlta.Location = new System.Drawing.Point(177, 137);
+            this.lblDescripcionAlta.Location = new System.Drawing.Point(177, 69);
             this.lblDescripcionAlta.Name = "lblDescripcionAlta";
             this.lblDescripcionAlta.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcionAlta.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // btnBaja
             // 
-            this.btnBaja.Location = new System.Drawing.Point(12, 97);
+            this.btnBaja.Location = new System.Drawing.Point(12, 34);
             this.btnBaja.Name = "btnBaja";
             this.btnBaja.Size = new System.Drawing.Size(123, 23);
             this.btnBaja.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // btnModifacion
             // 
-            this.btnModifacion.Location = new System.Drawing.Point(12, 160);
+            this.btnModifacion.Location = new System.Drawing.Point(13, 92);
             this.btnModifacion.Name = "btnModifacion";
             this.btnModifacion.Size = new System.Drawing.Size(123, 23);
             this.btnModifacion.TabIndex = 3;
@@ -85,7 +85,7 @@
             // lblStockAlta
             // 
             this.lblStockAlta.AutoSize = true;
-            this.lblStockAlta.Location = new System.Drawing.Point(177, 183);
+            this.lblStockAlta.Location = new System.Drawing.Point(177, 115);
             this.lblStockAlta.Name = "lblStockAlta";
             this.lblStockAlta.Size = new System.Drawing.Size(35, 13);
             this.lblStockAlta.TabIndex = 4;
@@ -94,7 +94,7 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(175, 228);
+            this.lblPrecio.Location = new System.Drawing.Point(175, 160);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(37, 13);
             this.lblPrecio.TabIndex = 5;
@@ -103,7 +103,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(177, 276);
+            this.lblFecha.Location = new System.Drawing.Point(177, 208);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(40, 13);
             this.lblFecha.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             // btnListado
             // 
-            this.btnListado.Location = new System.Drawing.Point(13, 223);
+            this.btnListado.Location = new System.Drawing.Point(12, 137);
             this.btnListado.Name = "btnListado";
             this.btnListado.Size = new System.Drawing.Size(122, 23);
             this.btnListado.TabIndex = 7;
@@ -121,28 +121,28 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(246, 99);
+            this.txtNombre.Location = new System.Drawing.Point(246, 31);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(227, 20);
             this.txtNombre.TabIndex = 8;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(246, 137);
+            this.txtDescripcion.Location = new System.Drawing.Point(246, 69);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(227, 20);
             this.txtDescripcion.TabIndex = 9;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(246, 228);
+            this.txtPrecio.Location = new System.Drawing.Point(246, 160);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(227, 20);
             this.txtPrecio.TabIndex = 11;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(165, 369);
+            this.btnIngresar.Location = new System.Drawing.Point(34, 208);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(75, 23);
             this.btnIngresar.TabIndex = 13;
@@ -152,14 +152,14 @@
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(246, 276);
+            this.dtpFecha.Location = new System.Drawing.Point(246, 208);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(227, 20);
             this.dtpFecha.TabIndex = 14;
             // 
             // txtStockAlta
             // 
-            this.txtStockAlta.Location = new System.Drawing.Point(246, 180);
+            this.txtStockAlta.Location = new System.Drawing.Point(246, 112);
             this.txtStockAlta.Name = "txtStockAlta";
             this.txtStockAlta.Size = new System.Drawing.Size(227, 20);
             this.txtStockAlta.TabIndex = 15;
@@ -168,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 450);
+            this.ClientSize = new System.Drawing.Size(485, 240);
             this.Controls.Add(this.txtStockAlta);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.btnIngresar);

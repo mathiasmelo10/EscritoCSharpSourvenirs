@@ -43,7 +43,7 @@
             // 
             // btnListar
             // 
-            this.btnListar.Location = new System.Drawing.Point(298, 447);
+            this.btnListar.Location = new System.Drawing.Point(299, 419);
             this.btnListar.Name = "btnListar";
             this.btnListar.Size = new System.Drawing.Size(75, 23);
             this.btnListar.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 515);
+            this.ClientSize = new System.Drawing.Size(682, 452);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.dGVListado);
             this.Name = "Listado";
